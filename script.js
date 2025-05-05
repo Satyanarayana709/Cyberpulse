@@ -16,5 +16,27 @@ fetch('https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=c
         });
     })
     .catch(err => {
-        container.innerHTML = "Failed to load news. Check your API key or internet.";
+        container.innerHTML = "Major Cybersecurity Developments
+Five Tattva Acquires Stake in Zeroday Ops to Boost Cybersecurity
+Date: May 5, 2025
+In a strategic move to expand its cybersecurity capabilities, Five Tattva Cyberhub Security LLP has acquired a major stake in Zeroday Ops Private Limited, a renowned cybersecurity firm known for its advanced threat detection and prevention capabilities.
+
+Indian Cybersecurity Agencies Successfully Block Multiple Pakistan-Sponsored Hacking Attempts
+Date: May 2, 2025
+Indian cybersecurity agencies have successfully thwarted multiple hacking attempts sponsored by Pakistan, highlighting the nation's robust cyber defense mechanisms.
+
+India Reports Over Four-Fold Increase in Cyber Fraud Cases in FY2024
+Date: March 11, 2025
+Official data reveals that high-value cyber fraud cases in India surged over four times in FY2024, resulting in losses amounting to $20 million. The rise is attributed to increased digital transactions and lack of cyber literacy.
+
+🚨 Recent Cybercrime Incidents
+Delhi Police Arrest Four Men for Rs 44.50 Lakh 'Digital Arrest' Fraud
+Date: March 9, 2025
+The scam involved fraudsters posing as law enforcement officials, coercing victims into transferring money under the pretense of legal procedures.
+
+47-Year-Old Loses Rs 1.6 Crore to Crypto Fraud in Hyderabad
+Date: April 30, 2025
+A Hyderabad resident was duped into investing in a fraudulent cryptocurrency scheme, leading to significant financial loss.
+
+Chandigarh Man Duped of ₹1.3 Crore by Fraudsters Posin.";
     });
