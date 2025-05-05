@@ -1,6 +1,6 @@
 const container = document.getElementById("news-container");
 
-fetch('https://newsapi.org/v2/everything?q=cybersecurity&apiKey=6705430b396b4b1f856762007cc2a89b')
+fetch('https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=cybersecurity&apiKey=6705430b396b4b1f856762007cc2a89b')
     .then(response => response.json())
     .then(data => {
         container.innerHTML = ""; // clear loading message
